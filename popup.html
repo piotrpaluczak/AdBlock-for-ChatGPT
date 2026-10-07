@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>AdBlock for ChatGPT</title>
+    <style>
+      body {
+        font-family: system-ui, sans-serif;
+        margin: 12px 16px;
+        min-width: 200px;
+      }
+      label {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        font-size: 14px;
+        cursor: pointer;
+      }
+      p {
+        margin: 8px 0 0;
+        font-size: 12px;
+        color: #555;
+      }
+    </style>
+  </head>
+  <body>
+    <label>
+      <input type="checkbox" id="enabled" />
+      Block ads
+    </label>
+    <p>Hides ad blocks in ChatGPT chats.</p>
+    <script src="popup.js"></script>
+  </body>
+</html>
