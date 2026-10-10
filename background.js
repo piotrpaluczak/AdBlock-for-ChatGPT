@@ -1,4 +1,11 @@
-chrome.runtime.onInstalled.addListener(async () => {
+chrome.runtime.onInstalled.addListener(async (details) => {
+  if (details.reason === "install") {
+    await chrome.tabs.create({
+      url: chrome.runtime.getURL("thank-you.html"),
+      active: true,
+    });
+  }
+
   const tabs = await chrome.tabs.query({
     url: ["https://chatgpt.com/*", "https://chat.openai.com/*"],
   });

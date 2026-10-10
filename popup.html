@@ -9,41 +9,159 @@
         color-scheme: light dark;
         --text: light-dark(#111111, #f2f2f2);
         --muted: light-dark(#555555, #a8a8a8);
-        --accent: light-dark(#0b57d0, #8ab4f8);
+        --accent: #10a37f;
+        --track-off: light-dark(#c6c6c6, #5a5a5a);
+        --thumb: #ffffff;
+        --border: light-dark(#e5e5e5, #333333);
       }
 
       body {
         font-family: system-ui, sans-serif;
-        margin: 12px 16px;
-        min-width: 200px;
+        margin: 14px 16px 12px;
+        min-width: 260px;
         color: var(--text);
       }
 
-      label {
+      header {
+        display: grid;
+        grid-template-columns: 32px 1fr;
+        column-gap: 10px;
+        row-gap: 8px;
+        align-items: center;
+        margin-bottom: 8px;
+      }
+
+      header img {
+        width: 32px;
+        height: 32px;
+        border-radius: 6px;
+      }
+
+      header h1 {
+        margin: 0;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 1.25;
+      }
+
+      header .subtitle {
+        grid-column: 1 / -1;
+        margin: 0;
+        font-size: 12px;
+        color: var(--muted);
+        line-height: 1.35;
+      }
+
+      .row {
         display: flex;
         align-items: center;
-        gap: 8px;
+        justify-content: space-between;
+        gap: 16px;
+      }
+
+      .row-label {
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+        min-width: 0;
+      }
+
+      .row-label span:first-child {
         font-size: 14px;
+        font-weight: 600;
+        line-height: 1.25;
+      }
+
+      .state {
+        font-size: 12px;
+        color: var(--muted);
+        line-height: 1.3;
+      }
+
+      .switch {
+        position: relative;
+        display: inline-block;
+        width: 40px;
+        height: 22px;
+        flex-shrink: 0;
+      }
+
+      .switch input {
+        position: absolute;
+        inset: 0;
+        opacity: 0;
+        margin: 0;
         cursor: pointer;
       }
 
-      input[type="checkbox"] {
-        accent-color: var(--accent);
+      .switch .track {
+        position: absolute;
+        inset: 0;
+        border-radius: 999px;
+        background: var(--track-off);
+        transition: background-color 0.15s ease;
+        pointer-events: none;
       }
 
-      p {
-        margin: 8px 0 0;
+      .switch .track::after {
+        content: "";
+        position: absolute;
+        top: 2px;
+        left: 2px;
+        width: 18px;
+        height: 18px;
+        border-radius: 50%;
+        background: var(--thumb);
+        box-shadow: 0 1px 2px rgb(0 0 0 / 25%);
+        transition: transform 0.15s ease;
+      }
+
+      .switch input:checked + .track {
+        background: var(--accent);
+      }
+
+      .switch input:checked + .track::after {
+        transform: translateX(18px);
+      }
+
+      .switch input:focus-visible + .track {
+        outline: 2px solid var(--accent);
+        outline-offset: 2px;
+      }
+
+      .support {
+        margin: 14px 0 0;
+        padding-top: 12px;
+        border-top: 1px solid var(--border);
         font-size: 12px;
         color: var(--muted);
+        line-height: 1.35;
       }
     </style>
   </head>
   <body>
-    <label>
-      <input type="checkbox" id="enabled" />
-      Block ads
-    </label>
-    <p>Hides ad blocks in ChatGPT chats.</p>
+    <header>
+      <img src="icons/icon48.png" alt="" width="32" height="32" />
+      <h1>AdBlock for ChatGPT</h1>
+      <p class="subtitle">Hides and blocks Ads in ChatGPT chats.</p>
+    </header>
+    <div class="row">
+      <div class="row-label">
+        <span id="enabled-label">Block ads</span>
+        <span class="state" id="enabled-state">Off</span>
+      </div>
+      <label class="switch">
+        <input
+          type="checkbox"
+          id="enabled"
+          role="switch"
+          aria-labelledby="enabled-label"
+          aria-checked="false"
+        />
+        <span class="track" aria-hidden="true"></span>
+      </label>
+    </div>
+    <p class="support">Enjoying it? Consider buying me a coffee. ☕</p>
     <script src="popup.js"></script>
   </body>
 </html>
