@@ -3,7 +3,11 @@
   "name": "AdBlock for ChatGPT",
   "version": "1.0.0",
   "description": "Hides and blocks Ads in ChatGPT chats.",
-  "permissions": ["storage", "tabs"],
+  "permissions": ["storage"],
+  "host_permissions": [
+    "https://chatgpt.com/*",
+    "https://chat.openai.com/*"
+  ],
   "action": {
     "default_popup": "popup.html",
     "default_title": "AdBlock for ChatGPT",
@@ -28,7 +32,7 @@
         "https://chat.openai.com/*"
       ],
       "js": ["content.js"],
-      "run_at": "document_idle"
+      "run_at": "document_start"
     }
   ]
 }

@@ -1,5 +1,24 @@
 const STYLE_ID = "adblock-for-chatgpt-style";
-const AD_CSS = "div._AkrYjetK7b { display: none !important; }";
+
+// Legacy hashed class + more stable attribute/class patterns used for ChatGPT ads.
+const AD_CSS = `
+div._AkrYjetK7b,
+[data-sponsor="true"],
+[data-sponsor-v2="true"],
+[data-promoted="true"],
+[aria-label="Sponsored"],
+[aria-label="Advertisement"],
+[aria-label="Sponsorowane"],
+[aria-label="Reklama"],
+[data-testid*="banner-ad"],
+[data-testid*="sponsored"],
+[class*="-sponsored-"],
+[class*="-promoted-"],
+[class*="sponsor-container"],
+[class*="promoted-result"] {
+  display: none !important;
+}
+`.trim();
 
 function enableBlocking() {
   if (document.getElementById(STYLE_ID)) return;
@@ -7,12 +26,11 @@ function enableBlocking() {
   const style = document.createElement("style");
   style.id = STYLE_ID;
   style.textContent = AD_CSS;
-  document.documentElement.appendChild(style);
+  (document.documentElement || document.head).appendChild(style);
 }
 
 function disableBlocking() {
-  const style = document.getElementById(STYLE_ID);
-  if (style) style.remove();
+  document.getElementById(STYLE_ID)?.remove();
 }
 
 function applyEnabled(enabled) {
@@ -23,11 +41,14 @@ function applyEnabled(enabled) {
   }
 }
 
-chrome.storage.sync.get({ enabled: true }, (result) => {
-  applyEnabled(result.enabled !== false);
-});
+async function init() {
+  const { enabled = true } = await chrome.storage.sync.get({ enabled: true });
+  applyEnabled(enabled !== false);
+}
 
 chrome.storage.onChanged.addListener((changes, area) => {
   if (area !== "sync" || !changes.enabled) return;
   applyEnabled(changes.enabled.newValue !== false);
 });
+
+init();
