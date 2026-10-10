@@ -137,6 +137,15 @@
         color: var(--muted);
         line-height: 1.35;
       }
+
+      .support a {
+        color: inherit;
+        text-underline-offset: 2px;
+      }
+
+      .support a:hover {
+        color: var(--text);
+      }
     </style>
   </head>
   <body>
@@ -161,7 +170,15 @@
         <span class="track" aria-hidden="true"></span>
       </label>
     </div>
-    <p class="support">Enjoying it? Consider buying me a coffee. ☕</p>
+    <p class="support">
+      Enjoying it? Consider
+      <a
+        href="https://buymeacoffee.com/piotrpaluczak"
+        target="_blank"
+        rel="noopener noreferrer"
+        >buying me a coffee</a
+      >. ☕
+    </p>
     <script src="popup.js"></script>
   </body>
 </html>
