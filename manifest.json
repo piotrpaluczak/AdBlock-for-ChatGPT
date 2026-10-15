@@ -1,8 +1,9 @@
 {
   "manifest_version": 3,
-  "name": "AdBlock for ChatGPT",
+  "default_locale": "en",
+  "name": "__MSG_extensionName__",
   "version": "1.0.0",
-  "description": "Hides and blocks Ads in ChatGPT chats.",
+  "description": "__MSG_extensionDescription__",
   "permissions": ["storage"],
   "host_permissions": [
     "https://chatgpt.com/*",
@@ -10,7 +11,7 @@
   ],
   "action": {
     "default_popup": "popup.html",
-    "default_title": "AdBlock for ChatGPT",
+    "default_title": "__MSG_extensionName__",
     "default_icon": {
       "16": "icons/icon16.png",
       "48": "icons/icon48.png",

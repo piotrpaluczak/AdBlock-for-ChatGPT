@@ -1,0 +1,10 @@
+{
+  "extensionName": {
+    "message": "AdBlock for ChatGPT",
+    "description": "Extension name shown in the Chrome Web Store and browser UI."
+  },
+  "extensionDescription": {
+    "message": "Block ads in ChatGPT chats. Hide sponsored messages automatically. Free & private.",
+    "description": "Short description (max 132 characters) for the store listing and manifest."
+  }
+}
