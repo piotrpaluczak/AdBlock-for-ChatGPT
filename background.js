@@ -7,7 +7,7 @@ chrome.runtime.onInstalled.addListener(async (details) => {
   }
 
   const tabs = await chrome.tabs.query({
-    url: ["https://chatgpt.com/*", "https://chat.openai.com/*"],
+    url: ["https://chatgpt.com/*"],
   });
 
   await Promise.all(

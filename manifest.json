@@ -6,8 +6,7 @@
   "description": "__MSG_extensionDescription__",
   "permissions": ["storage"],
   "host_permissions": [
-    "https://chatgpt.com/*",
-    "https://chat.openai.com/*"
+    "https://chatgpt.com/*"
   ],
   "action": {
     "default_popup": "popup.html",
@@ -29,8 +28,7 @@
   "content_scripts": [
     {
       "matches": [
-        "https://chatgpt.com/*",
-        "https://chat.openai.com/*"
+        "https://chatgpt.com/*"
       ],
       "js": ["content.js"],
       "run_at": "document_start"

@@ -2,7 +2,7 @@
 
 A free, privacy-friendly Chrome extension that hides ads in ChatGPT chats.
 
-Works on [chatgpt.com](https://chatgpt.com) and [chat.openai.com](https://chat.openai.com).
+Works on [chatgpt.com](https://chatgpt.com).
 
 > **License note:** The source is public for transparency and personal use, but **commercial use is not allowed**. See [License](#license).
 
