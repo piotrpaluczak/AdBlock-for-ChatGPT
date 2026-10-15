@@ -59,6 +59,32 @@
         gap: 16px;
       }
 
+      .stat {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        gap: 16px;
+        margin-top: 12px;
+        padding-top: 12px;
+        border-top: 1px solid var(--border);
+        font-size: 12px;
+        line-height: 1.35;
+        color: var(--muted);
+      }
+
+      .stat-value {
+        font-size: 14px;
+        font-weight: 600;
+        font-variant-numeric: tabular-nums;
+        color: var(--text);
+        flex-shrink: 0;
+      }
+
+      .stat-value[data-empty="true"] {
+        font-weight: 400;
+        color: var(--muted);
+      }
+
       .row-label {
         display: flex;
         flex-direction: row;
@@ -181,6 +207,10 @@
         />
         <span class="track" aria-hidden="true"></span>
       </label>
+    </div>
+    <div class="stat" aria-live="polite">
+      <span id="blocked-label">Ads blocked on this page</span>
+      <span class="stat-value" id="blocked-count" data-empty="true">—</span>
     </div>
     <div class="support">
       <p>

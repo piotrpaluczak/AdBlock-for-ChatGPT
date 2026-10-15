@@ -180,6 +180,17 @@ async function init() {
   applyEnabled(stored !== false);
 }
 
+function getBlockedCount() {
+  if (!enabled || !document.documentElement) return 0;
+  return document.querySelectorAll(`[${HIDDEN_ATTR}="1"]`).length;
+}
+
+chrome.runtime.onMessage.addListener((message, _sender, sendResponse) => {
+  if (message?.type !== "GET_BLOCKED_COUNT") return;
+  sendResponse({ count: getBlockedCount(), enabled });
+  return false;
+});
+
 chrome.storage.onChanged.addListener((changes, area) => {
   if (area !== "sync" || !changes.enabled) return;
   applyEnabled(changes.enabled.newValue !== false);
