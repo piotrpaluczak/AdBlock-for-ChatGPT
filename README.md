@@ -18,7 +18,7 @@ Works on [chatgpt.com](https://chatgpt.com).
 
 ### Chrome Web Store
 
-Coming soon — once published, the store link will be here.
+[Install AdBlock for ChatGPT](https://chrome.google.com/webstore/detail/ocbaghbgamagkamebepndgfhlkchknjl) from the Chrome Web Store.
 
 ### From source (developer mode)
 
