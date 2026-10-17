@@ -174,7 +174,7 @@ function applyEnabled(value) {
 }
 
 async function init() {
-  const { enabled: stored = true } = await chrome.storage.sync.get({
+  const { enabled: stored = true } = await chrome.storage.local.get({
     enabled: true,
   });
   applyEnabled(stored !== false);
@@ -192,7 +192,7 @@ chrome.runtime.onMessage.addListener((message, _sender, sendResponse) => {
 });
 
 chrome.storage.onChanged.addListener((changes, area) => {
-  if (area !== "sync" || !changes.enabled) return;
+  if (area !== "local" || !changes.enabled) return;
   applyEnabled(changes.enabled.newValue !== false);
 });
 

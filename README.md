@@ -30,7 +30,7 @@ For personal / non-commercial use only:
    ```
 2. Open `chrome://extensions`
 3. Enable **Developer mode**
-4. Click **Load unpacked** and select the project folder
+4. Click **Load unpacked** and select the `src` folder
 5. Open ChatGPT with the extension enabled
 
 After install, a thank-you page opens and any open ChatGPT tabs are reloaded so the content script can attach.
@@ -39,9 +39,9 @@ After install, a thank-you page opens and any open ChatGPT tabs are reloaded so 
 
 1. Open ChatGPT in Chrome
 2. Click the extension icon
-3. Toggle **Block ads** on or off
+3. Use the On / Off switch to enable or disable ad blocking
 
-Your preference is stored locally via `chrome.storage`.
+The popup also shows how many ads were blocked on the current page. Your preference is stored on this device with `chrome.storage.local`.
 
 ## Privacy
 
@@ -52,12 +52,18 @@ Your preference is stored locally via `chrome.storage`.
 ## Project structure
 
 ```
-├── manifest.json      # Extension manifest (MV3)
-├── background.js      # Service worker (install / reload)
-├── content.js         # Ad detection and hiding on ChatGPT pages
-├── popup.html / .js   # Popup UI and toggle
-├── thank-you.html     # Post-install page
-└── icons/             # Extension icons
+├── src/                 # Chrome Web Store package (load this folder unpacked)
+│   ├── manifest.json    # Extension manifest (MV3)
+│   ├── background.js    # Service worker (install / reload)
+│   ├── content.js       # Ad detection and hiding on ChatGPT pages
+│   ├── popup.html / .js # Popup UI and toggle
+│   ├── i18n.js          # Message lookup for extension pages
+│   ├── thank-you.html   # Post-install page
+│   ├── icons/           # Extension icons
+│   └── _locales/        # UI strings
+├── store-assets/        # Screenshots and listing copy (not in the package)
+├── LICENSE
+└── README.md
 ```
 
 ## Contributing

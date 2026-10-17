@@ -41,7 +41,7 @@ async function loadBlockedCount() {
 }
 
 async function init() {
-  const { enabled = true } = await chrome.storage.sync.get({ enabled: true });
+  const { enabled = true } = await chrome.storage.local.get({ enabled: true });
   renderState(enabled !== false);
   await loadBlockedCount();
 }
@@ -49,7 +49,7 @@ async function init() {
 toggle.addEventListener("change", async () => {
   const isOn = toggle.checked;
   renderState(isOn);
-  await chrome.storage.sync.set({ enabled: isOn });
+  await chrome.storage.local.set({ enabled: isOn });
   // Give the content script a moment to apply/clear markers.
   setTimeout(loadBlockedCount, 50);
 });
