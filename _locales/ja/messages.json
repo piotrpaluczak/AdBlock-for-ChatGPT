@@ -1,0 +1,90 @@
+{
+  "extensionName": {
+    "message": "AdBlock for ChatGPT",
+    "description": "Extension name shown in the Chrome Web Store, browser UI, and page headings."
+  },
+  "extensionDescription": {
+    "message": "ChatGPTのチャットで広告をブロック。スポンサー投稿を自動で非表示。無料でプライベート。",
+    "description": "Short description (max 132 characters) for the store listing and manifest."
+  },
+  "popupSubtitle": {
+    "message": "ChatGPTのチャットで広告をブロック。",
+    "description": "Popup header subtitle under the extension name."
+  },
+  "popupBlockedLabel": {
+    "message": "このページでブロックした広告",
+    "description": "Popup label for the per-page blocked ads counter."
+  },
+  "popupSupport": {
+    "message": "気に入りましたか？ $LINK$. ☕",
+    "description": "Popup support line with $LINK$ donation placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "popupSupportLink": {
+    "message": "コーヒーを奢る",
+    "description": "Popup support donation link text."
+  },
+  "popupLearnMore": {
+    "message": "詳細",
+    "description": "Popup link to the thank-you / about page."
+  },
+  "tyPageTitle": {
+    "message": "インストールありがとうございます - AdBlock for ChatGPT",
+    "description": "Document title for the post-install thank-you page."
+  },
+  "tyLead": {
+    "message": "インストールありがとうございます！広告のないChatGPTをお楽しみください！",
+    "description": "Lead paragraph on the thank-you page."
+  },
+  "tyPrivacy": {
+    "message": "この拡張機能は個人利用で完全無料で、今後もそうです。プライバシーを尊重し、データを収集しません。ソースコードは $LINK$.",
+    "description": "Thank-you privacy paragraph with $LINK$ GitHub placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "tyPrivacyLink": {
+    "message": "GitHubで公開",
+    "description": "Thank-you page link text to the GitHub repository."
+  },
+  "tySupport": {
+    "message": "気に入ったら、ぜひ $LINK$. ☕",
+    "description": "Thank-you support paragraph with $LINK$ donation placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "tySupportLink": {
+    "message": "コーヒーを奢ってください",
+    "description": "Thank-you page donation link text."
+  },
+  "tyFeedback": {
+    "message": "バグや提案は？ $LINK$.",
+    "description": "Thank-you feedback paragraph with $LINK$ email placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "tyFeedbackLink": {
+    "message": "メールする",
+    "description": "Thank-you page email link text."
+  },
+  "tyLicense": {
+    "message": "ライセンス",
+    "description": "Thank-you page link text to the license."
+  }
+}

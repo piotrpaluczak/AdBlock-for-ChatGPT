@@ -1,0 +1,90 @@
+{
+  "extensionName": {
+    "message": "AdBlock for ChatGPT",
+    "description": "Extension name shown in the Chrome Web Store, browser UI, and page headings."
+  },
+  "extensionDescription": {
+    "message": "Blokkolja a hirdetéseket a ChatGPT csevegésekben. A szponzorált üzenetek automatikusan elrejtése. Ingyenes és privát.",
+    "description": "Short description (max 132 characters) for the store listing and manifest."
+  },
+  "popupSubtitle": {
+    "message": "Blokkolja a hirdetéseket a ChatGPT csevegésekben.",
+    "description": "Popup header subtitle under the extension name."
+  },
+  "popupBlockedLabel": {
+    "message": "Ezen az oldalon blokkolt hirdetések",
+    "description": "Popup label for the per-page blocked ads counter."
+  },
+  "popupSupport": {
+    "message": "Tetszik? Fontold meg, hogy $LINK$. ☕",
+    "description": "Popup support line with $LINK$ donation placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "popupSupportLink": {
+    "message": "veszel nekem egy kávét",
+    "description": "Popup support donation link text."
+  },
+  "popupLearnMore": {
+    "message": "Tudj meg többet",
+    "description": "Popup link to the thank-you / about page."
+  },
+  "tyPageTitle": {
+    "message": "Köszönjük a telepítést - AdBlock for ChatGPT",
+    "description": "Document title for the post-install thank-you page."
+  },
+  "tyLead": {
+    "message": "Köszönjük a telepítést! Remélem, élvezed a reklámmentes ChatGPT-t!",
+    "description": "Lead paragraph on the thank-you page."
+  },
+  "tyPrivacy": {
+    "message": "Ez a bővítmény teljesen ingyenes személyes használatra, és mindig az is marad. Tiszteletben tartja a magánéletedet, és soha nem gyűjt adatokat. A forráskód $LINK$.",
+    "description": "Thank-you privacy paragraph with $LINK$ GitHub placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "tyPrivacyLink": {
+    "message": "nyílt a GitHubon",
+    "description": "Thank-you page link text to the GitHub repository."
+  },
+  "tySupport": {
+    "message": "Ha tetszik, fontold meg, hogy $LINK$. ☕",
+    "description": "Thank-you support paragraph with $LINK$ donation placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "tySupportLink": {
+    "message": "veszel nekem egy kávét",
+    "description": "Thank-you page donation link text."
+  },
+  "tyFeedback": {
+    "message": "Hibák vagy javaslatok? $LINK$.",
+    "description": "Thank-you feedback paragraph with $LINK$ email placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "tyFeedbackLink": {
+    "message": "írj nekem",
+    "description": "Thank-you page email link text."
+  },
+  "tyLicense": {
+    "message": "Licenc",
+    "description": "Thank-you page link text to the license."
+  }
+}

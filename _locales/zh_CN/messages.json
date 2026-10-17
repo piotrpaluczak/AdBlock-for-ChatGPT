@@ -1,0 +1,90 @@
+{
+  "extensionName": {
+    "message": "AdBlock for ChatGPT",
+    "description": "Extension name shown in the Chrome Web Store, browser UI, and page headings."
+  },
+  "extensionDescription": {
+    "message": "在 ChatGPT 对话中屏蔽广告。自动隐藏赞助消息。免费且注重隐私。",
+    "description": "Short description (max 132 characters) for the store listing and manifest."
+  },
+  "popupSubtitle": {
+    "message": "在 ChatGPT 对话中屏蔽广告。",
+    "description": "Popup header subtitle under the extension name."
+  },
+  "popupBlockedLabel": {
+    "message": "本页已屏蔽的广告",
+    "description": "Popup label for the per-page blocked ads counter."
+  },
+  "popupSupport": {
+    "message": "喜欢吗？不妨 $LINK$. ☕",
+    "description": "Popup support line with $LINK$ donation placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "popupSupportLink": {
+    "message": "请我喝杯咖啡",
+    "description": "Popup support donation link text."
+  },
+  "popupLearnMore": {
+    "message": "了解更多",
+    "description": "Popup link to the thank-you / about page."
+  },
+  "tyPageTitle": {
+    "message": "感谢安装 - AdBlock for ChatGPT",
+    "description": "Document title for the post-install thank-you page."
+  },
+  "tyLead": {
+    "message": "感谢安装！希望您享受无广告的 ChatGPT 体验！",
+    "description": "Lead paragraph on the thank-you page."
+  },
+  "tyPrivacy": {
+    "message": "本扩展仅供个人免费使用，并将一直免费。它尊重您的隐私，从不收集数据。源代码 $LINK$.",
+    "description": "Thank-you privacy paragraph with $LINK$ GitHub placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "tyPrivacyLink": {
+    "message": "在 GitHub 上开放",
+    "description": "Thank-you page link text to the GitHub repository."
+  },
+  "tySupport": {
+    "message": "如果您喜欢，请考虑 $LINK$. ☕",
+    "description": "Thank-you support paragraph with $LINK$ donation placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "tySupportLink": {
+    "message": "请我喝杯咖啡",
+    "description": "Thank-you page donation link text."
+  },
+  "tyFeedback": {
+    "message": "错误或建议？ $LINK$.",
+    "description": "Thank-you feedback paragraph with $LINK$ email placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "tyFeedbackLink": {
+    "message": "给我发邮件",
+    "description": "Thank-you page email link text."
+  },
+  "tyLicense": {
+    "message": "许可证",
+    "description": "Thank-you page link text to the license."
+  }
+}

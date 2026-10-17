@@ -1,0 +1,90 @@
+{
+  "extensionName": {
+    "message": "AdBlock for ChatGPT",
+    "description": "Extension name shown in the Chrome Web Store, browser UI, and page headings."
+  },
+  "extensionDescription": {
+    "message": "Blokirajte oglase v pogovorih ChatGPT. Samodejno skrijte sponzorirana sporočila. Brezplačno in zasebno.",
+    "description": "Short description (max 132 characters) for the store listing and manifest."
+  },
+  "popupSubtitle": {
+    "message": "Blokirajte oglase v pogovorih ChatGPT.",
+    "description": "Popup header subtitle under the extension name."
+  },
+  "popupBlockedLabel": {
+    "message": "Oglasi blokirani na tej strani",
+    "description": "Popup label for the per-page blocked ads counter."
+  },
+  "popupSupport": {
+    "message": "Vam je všeč? Razmislite o $LINK$. ☕",
+    "description": "Popup support line with $LINK$ donation placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "popupSupportLink": {
+    "message": "nakupu kave zame",
+    "description": "Popup support donation link text."
+  },
+  "popupLearnMore": {
+    "message": "Več o tem",
+    "description": "Popup link to the thank-you / about page."
+  },
+  "tyPageTitle": {
+    "message": "Hvala za namestitev - AdBlock for ChatGPT",
+    "description": "Document title for the post-install thank-you page."
+  },
+  "tyLead": {
+    "message": "Hvala za namestitev! Upam, da uživate v ChatGPT brez oglasov!",
+    "description": "Lead paragraph on the thank-you page."
+  },
+  "tyPrivacy": {
+    "message": "Ta razširitev je popolnoma brezplačna za osebno uporabo in bo vedno taka. Spoštuje vašo zasebnost in ne zbira podatkov. Izvorna koda je $LINK$.",
+    "description": "Thank-you privacy paragraph with $LINK$ GitHub placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "tyPrivacyLink": {
+    "message": "odprta na GitHubu",
+    "description": "Thank-you page link text to the GitHub repository."
+  },
+  "tySupport": {
+    "message": "Če vam je všeč, razmislite o $LINK$. ☕",
+    "description": "Thank-you support paragraph with $LINK$ donation placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "tySupportLink": {
+    "message": "nakupu kave zame",
+    "description": "Thank-you page donation link text."
+  },
+  "tyFeedback": {
+    "message": "Hrošči ali predlogi? $LINK$.",
+    "description": "Thank-you feedback paragraph with $LINK$ email placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "tyFeedbackLink": {
+    "message": "pišite mi",
+    "description": "Thank-you page email link text."
+  },
+  "tyLicense": {
+    "message": "Licenca",
+    "description": "Thank-you page link text to the license."
+  }
+}

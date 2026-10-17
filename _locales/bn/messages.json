@@ -1,0 +1,90 @@
+{
+  "extensionName": {
+    "message": "AdBlock for ChatGPT",
+    "description": "Extension name shown in the Chrome Web Store, browser UI, and page headings."
+  },
+  "extensionDescription": {
+    "message": "ChatGPT চ্যাটে বিজ্ঞাপন ব্লক করুন। স্পনসর করা বার্তা স্বয়ংক্রিয়ভাবে লুকান। বিনামূল্যে ও গোপনীয়।",
+    "description": "Short description (max 132 characters) for the store listing and manifest."
+  },
+  "popupSubtitle": {
+    "message": "ChatGPT চ্যাটে বিজ্ঞাপন ব্লক করুন।",
+    "description": "Popup header subtitle under the extension name."
+  },
+  "popupBlockedLabel": {
+    "message": "এই পৃষ্ঠায় ব্লক করা বিজ্ঞাপন",
+    "description": "Popup label for the per-page blocked ads counter."
+  },
+  "popupSupport": {
+    "message": "ভালো লাগছে? $LINK$. ☕",
+    "description": "Popup support line with $LINK$ donation placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "popupSupportLink": {
+    "message": "আমাকে একটি কফি কিনে দিন",
+    "description": "Popup support donation link text."
+  },
+  "popupLearnMore": {
+    "message": "আরও জানুন",
+    "description": "Popup link to the thank-you / about page."
+  },
+  "tyPageTitle": {
+    "message": "ইনস্টল করার জন্য ধন্যবাদ - AdBlock for ChatGPT",
+    "description": "Document title for the post-install thank-you page."
+  },
+  "tyLead": {
+    "message": "ইনস্টল করার জন্য ধন্যবাদ! বিজ্ঞাপন-মুক্ত ChatGPT উপভোগ করুন!",
+    "description": "Lead paragraph on the thank-you page."
+  },
+  "tyPrivacy": {
+    "message": "এই এক্সটেনশন ব্যক্তিগত ব্যবহারের জন্য সম্পূর্ণ বিনামূল্যে এবং সবসময় থাকবে। এটি আপনার গোপনীয়তা সম্মান করে এবং কখনো ডেটা সংগ্রহ করে না। সোর্স কোড $LINK$.",
+    "description": "Thank-you privacy paragraph with $LINK$ GitHub placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "tyPrivacyLink": {
+    "message": "GitHub-এ খোলা",
+    "description": "Thank-you page link text to the GitHub repository."
+  },
+  "tySupport": {
+    "message": "আপনি যদি পছন্দ করেন, $LINK$. ☕",
+    "description": "Thank-you support paragraph with $LINK$ donation placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "tySupportLink": {
+    "message": "আমাকে একটি কফি কিনে দিন",
+    "description": "Thank-you page donation link text."
+  },
+  "tyFeedback": {
+    "message": "বাগ বা পরামর্শ? $LINK$.",
+    "description": "Thank-you feedback paragraph with $LINK$ email placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "tyFeedbackLink": {
+    "message": "আমাকে ইমেইল করুন",
+    "description": "Thank-you page email link text."
+  },
+  "tyLicense": {
+    "message": "লাইসেন্স",
+    "description": "Thank-you page link text to the license."
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "extensionName": {
+    "message": "AdBlock for ChatGPT",
+    "description": "Extension name shown in the Chrome Web Store, browser UI, and page headings."
+  },
+  "extensionDescription": {
+    "message": "ChatGPT 채팅에서 광고를 차단하세요. 스폰서 메시지를 자동으로 숨깁니다. 무료이며 비공개입니다.",
+    "description": "Short description (max 132 characters) for the store listing and manifest."
+  },
+  "popupSubtitle": {
+    "message": "ChatGPT 채팅에서 광고를 차단하세요.",
+    "description": "Popup header subtitle under the extension name."
+  },
+  "popupBlockedLabel": {
+    "message": "이 페이지에서 차단된 광고",
+    "description": "Popup label for the per-page blocked ads counter."
+  },
+  "popupSupport": {
+    "message": "마음에 드시나요? $LINK$. ☕",
+    "description": "Popup support line with $LINK$ donation placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "popupSupportLink": {
+    "message": "커피 한 잔 사주기",
+    "description": "Popup support donation link text."
+  },
+  "popupLearnMore": {
+    "message": "자세히 알아보기",
+    "description": "Popup link to the thank-you / about page."
+  },
+  "tyPageTitle": {
+    "message": "설치해 주셔서 감사합니다 - AdBlock for ChatGPT",
+    "description": "Document title for the post-install thank-you page."
+  },
+  "tyLead": {
+    "message": "설치해 주셔서 감사합니다! 광고 없는 ChatGPT를 즐기세요!",
+    "description": "Lead paragraph on the thank-you page."
+  },
+  "tyPrivacy": {
+    "message": "이 확장 프로그램은 개인 사용에 완전히 무료이며 앞으로도 그렇습니다. 개인정보를 존중하며 데이터를 수집하지 않습니다. 소스 코드는 $LINK$.",
+    "description": "Thank-you privacy paragraph with $LINK$ GitHub placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "tyPrivacyLink": {
+    "message": "GitHub에서 공개",
+    "description": "Thank-you page link text to the GitHub repository."
+  },
+  "tySupport": {
+    "message": "마음에 드신다면 $LINK$. ☕",
+    "description": "Thank-you support paragraph with $LINK$ donation placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "tySupportLink": {
+    "message": "커피 한 잔 사주세요",
+    "description": "Thank-you page donation link text."
+  },
+  "tyFeedback": {
+    "message": "버그나 제안이 있나요? $LINK$.",
+    "description": "Thank-you feedback paragraph with $LINK$ email placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "tyFeedbackLink": {
+    "message": "이메일 보내기",
+    "description": "Thank-you page email link text."
+  },
+  "tyLicense": {
+    "message": "라이선스",
+    "description": "Thank-you page link text to the license."
+  }
+}

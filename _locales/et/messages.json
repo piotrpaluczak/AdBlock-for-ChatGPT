@@ -1,0 +1,90 @@
+{
+  "extensionName": {
+    "message": "AdBlock for ChatGPT",
+    "description": "Extension name shown in the Chrome Web Store, browser UI, and page headings."
+  },
+  "extensionDescription": {
+    "message": "Blokeeri reklaamid ChatGPT vestlustes. Peida sponsoreeritud sõnumid automaatselt. Tasuta ja privaatne.",
+    "description": "Short description (max 132 characters) for the store listing and manifest."
+  },
+  "popupSubtitle": {
+    "message": "Blokeeri reklaamid ChatGPT vestlustes.",
+    "description": "Popup header subtitle under the extension name."
+  },
+  "popupBlockedLabel": {
+    "message": "Sellel lehel blokeeritud reklaamid",
+    "description": "Popup label for the per-page blocked ads counter."
+  },
+  "popupSupport": {
+    "message": "Meeldib? Kaalu $LINK$. ☕",
+    "description": "Popup support line with $LINK$ donation placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "popupSupportLink": {
+    "message": "kohvi mulle ostmist",
+    "description": "Popup support donation link text."
+  },
+  "popupLearnMore": {
+    "message": "Lisateave",
+    "description": "Popup link to the thank-you / about page."
+  },
+  "tyPageTitle": {
+    "message": "Täname installimise eest - AdBlock for ChatGPT",
+    "description": "Document title for the post-install thank-you page."
+  },
+  "tyLead": {
+    "message": "Täname installimise eest! Loodan, et naudid reklaamivaba ChatGPT-d!",
+    "description": "Lead paragraph on the thank-you page."
+  },
+  "tyPrivacy": {
+    "message": "See laiendus on isiklikuks kasutamiseks täiesti tasuta ja jääb nii. See austab sinu privaatsust ega kogu kunagi andmeid. Lähtekood on $LINK$.",
+    "description": "Thank-you privacy paragraph with $LINK$ GitHub placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "tyPrivacyLink": {
+    "message": "avatud GitHubis",
+    "description": "Thank-you page link text to the GitHub repository."
+  },
+  "tySupport": {
+    "message": "Kui sulle meeldib, kaalu $LINK$. ☕",
+    "description": "Thank-you support paragraph with $LINK$ donation placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "tySupportLink": {
+    "message": "kohvi mulle ostmist",
+    "description": "Thank-you page donation link text."
+  },
+  "tyFeedback": {
+    "message": "Vead või ettepanekud? $LINK$.",
+    "description": "Thank-you feedback paragraph with $LINK$ email placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "tyFeedbackLink": {
+    "message": "kirjuta mulle",
+    "description": "Thank-you page email link text."
+  },
+  "tyLicense": {
+    "message": "Litsents",
+    "description": "Thank-you page link text to the license."
+  }
+}

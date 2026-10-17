@@ -1,0 +1,90 @@
+{
+  "extensionName": {
+    "message": "AdBlock for ChatGPT",
+    "description": "Extension name shown in the Chrome Web Store, browser UI, and page headings."
+  },
+  "extensionDescription": {
+    "message": "احجب الإعلانات في محادثات ChatGPT. أخفِ الرسائل المموّلة تلقائياً. مجاني وخصوصي.",
+    "description": "Short description (max 132 characters) for the store listing and manifest."
+  },
+  "popupSubtitle": {
+    "message": "احجب الإعلانات في محادثات ChatGPT.",
+    "description": "Popup header subtitle under the extension name."
+  },
+  "popupBlockedLabel": {
+    "message": "إعلانات محجوبة في هذه الصفحة",
+    "description": "Popup label for the per-page blocked ads counter."
+  },
+  "popupSupport": {
+    "message": "أعجبك؟ فكّر في $LINK$. ☕",
+    "description": "Popup support line with $LINK$ donation placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "popupSupportLink": {
+    "message": "شراء قهوة لي",
+    "description": "Popup support donation link text."
+  },
+  "popupLearnMore": {
+    "message": "اعرف المزيد",
+    "description": "Popup link to the thank-you / about page."
+  },
+  "tyPageTitle": {
+    "message": "شكراً على التثبيت - AdBlock for ChatGPT",
+    "description": "Document title for the post-install thank-you page."
+  },
+  "tyLead": {
+    "message": "شكراً على التثبيت! أتمنى أن تستمتع بتجربة ChatGPT بلا إعلانات!",
+    "description": "Lead paragraph on the thank-you page."
+  },
+  "tyPrivacy": {
+    "message": "هذا الامتداد مجاني تماماً للاستخدام الشخصي وسيبقى كذلك. يحترم خصوصيتك ولا يجمع بياناتك. المصدر $LINK$.",
+    "description": "Thank-you privacy paragraph with $LINK$ GitHub placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "tyPrivacyLink": {
+    "message": "مفتوح على GitHub",
+    "description": "Thank-you page link text to the GitHub repository."
+  },
+  "tySupport": {
+    "message": "إذا أعجبك استخدامه، فكّر في $LINK$. ☕",
+    "description": "Thank-you support paragraph with $LINK$ donation placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "tySupportLink": {
+    "message": "شراء قهوة لي",
+    "description": "Thank-you page donation link text."
+  },
+  "tyFeedback": {
+    "message": "أخطاء أو اقتراحات؟ $LINK$.",
+    "description": "Thank-you feedback paragraph with $LINK$ email placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "tyFeedbackLink": {
+    "message": "راسلني",
+    "description": "Thank-you page email link text."
+  },
+  "tyLicense": {
+    "message": "الترخيص",
+    "description": "Thank-you page link text to the license."
+  }
+}

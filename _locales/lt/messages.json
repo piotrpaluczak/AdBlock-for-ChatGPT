@@ -1,0 +1,90 @@
+{
+  "extensionName": {
+    "message": "AdBlock for ChatGPT",
+    "description": "Extension name shown in the Chrome Web Store, browser UI, and page headings."
+  },
+  "extensionDescription": {
+    "message": "Blokuokite reklamas ChatGPT pokalbiuose. Automatiškai slėpkite remiamas žinutes. Nemokama ir privatu.",
+    "description": "Short description (max 132 characters) for the store listing and manifest."
+  },
+  "popupSubtitle": {
+    "message": "Blokuokite reklamas ChatGPT pokalbiuose.",
+    "description": "Popup header subtitle under the extension name."
+  },
+  "popupBlockedLabel": {
+    "message": "Šiame puslapyje užblokuotos reklamos",
+    "description": "Popup label for the per-page blocked ads counter."
+  },
+  "popupSupport": {
+    "message": "Patinka? Apsvarstykite $LINK$. ☕",
+    "description": "Popup support line with $LINK$ donation placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "popupSupportLink": {
+    "message": "nupirkti man kavos",
+    "description": "Popup support donation link text."
+  },
+  "popupLearnMore": {
+    "message": "Sužinoti daugiau",
+    "description": "Popup link to the thank-you / about page."
+  },
+  "tyPageTitle": {
+    "message": "Ačiū už diegimą - AdBlock for ChatGPT",
+    "description": "Document title for the post-install thank-you page."
+  },
+  "tyLead": {
+    "message": "Ačiū už diegimą! Tikiuosi, mėgausitės ChatGPT be reklamų!",
+    "description": "Lead paragraph on the thank-you page."
+  },
+  "tyPrivacy": {
+    "message": "Šis plėtinys visiškai nemokamas asmeniniam naudojimui ir visada bus. Jis gerbia jūsų privatumą ir niekada nerenka duomenų. Pirminis kodas $LINK$.",
+    "description": "Thank-you privacy paragraph with $LINK$ GitHub placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "tyPrivacyLink": {
+    "message": "atviras GitHub",
+    "description": "Thank-you page link text to the GitHub repository."
+  },
+  "tySupport": {
+    "message": "Jei patinka, apsvarstykite $LINK$. ☕",
+    "description": "Thank-you support paragraph with $LINK$ donation placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "tySupportLink": {
+    "message": "nupirkti man kavos",
+    "description": "Thank-you page donation link text."
+  },
+  "tyFeedback": {
+    "message": "Klaidos ar pasiūlymai? $LINK$.",
+    "description": "Thank-you feedback paragraph with $LINK$ email placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "tyFeedbackLink": {
+    "message": "parašykite man",
+    "description": "Thank-you page email link text."
+  },
+  "tyLicense": {
+    "message": "Licencija",
+    "description": "Thank-you page link text to the license."
+  }
+}

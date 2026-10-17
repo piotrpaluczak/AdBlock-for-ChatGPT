@@ -1,0 +1,90 @@
+{
+  "extensionName": {
+    "message": "AdBlock for ChatGPT",
+    "description": "Extension name shown in the Chrome Web Store, browser UI, and page headings."
+  },
+  "extensionDescription": {
+    "message": "Блокируйте рекламу в чатах ChatGPT. Скрывайте спонсорские сообщения автоматически. Бесплатно и конфиденциально.",
+    "description": "Short description (max 132 characters) for the store listing and manifest."
+  },
+  "popupSubtitle": {
+    "message": "Блокируйте рекламу в чатах ChatGPT.",
+    "description": "Popup header subtitle under the extension name."
+  },
+  "popupBlockedLabel": {
+    "message": "Реклама заблокирована на этой странице",
+    "description": "Popup label for the per-page blocked ads counter."
+  },
+  "popupSupport": {
+    "message": "Нравится? Подумайте о $LINK$. ☕",
+    "description": "Popup support line with $LINK$ donation placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "popupSupportLink": {
+    "message": "покупке мне кофе",
+    "description": "Popup support donation link text."
+  },
+  "popupLearnMore": {
+    "message": "Подробнее",
+    "description": "Popup link to the thank-you / about page."
+  },
+  "tyPageTitle": {
+    "message": "Спасибо за установку - AdBlock for ChatGPT",
+    "description": "Document title for the post-install thank-you page."
+  },
+  "tyLead": {
+    "message": "Спасибо за установку! Надеюсь, вам понравится ChatGPT без рекламы!",
+    "description": "Lead paragraph on the thank-you page."
+  },
+  "tyPrivacy": {
+    "message": "Это расширение полностью бесплатно для личного использования и всегда будет таким. Оно уважает вашу конфиденциальность и не собирает данные. Исходный код $LINK$.",
+    "description": "Thank-you privacy paragraph with $LINK$ GitHub placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "tyPrivacyLink": {
+    "message": "открыт на GitHub",
+    "description": "Thank-you page link text to the GitHub repository."
+  },
+  "tySupport": {
+    "message": "Если вам нравится, подумайте о $LINK$. ☕",
+    "description": "Thank-you support paragraph with $LINK$ donation placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "tySupportLink": {
+    "message": "покупке мне кофе",
+    "description": "Thank-you page donation link text."
+  },
+  "tyFeedback": {
+    "message": "Ошибки или предложения? $LINK$.",
+    "description": "Thank-you feedback paragraph with $LINK$ email placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "tyFeedbackLink": {
+    "message": "напишите мне",
+    "description": "Thank-you page email link text."
+  },
+  "tyLicense": {
+    "message": "Лицензия",
+    "description": "Thank-you page link text to the license."
+  }
+}

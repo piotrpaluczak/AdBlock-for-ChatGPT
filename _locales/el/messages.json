@@ -1,0 +1,90 @@
+{
+  "extensionName": {
+    "message": "AdBlock for ChatGPT",
+    "description": "Extension name shown in the Chrome Web Store, browser UI, and page headings."
+  },
+  "extensionDescription": {
+    "message": "Αποκλείστε διαφημίσεις στις συνομιλίες ChatGPT. Κρύψτε χορηγούμενα μηνύματα αυτόματα. Δωρεάν & ιδιωτικό.",
+    "description": "Short description (max 132 characters) for the store listing and manifest."
+  },
+  "popupSubtitle": {
+    "message": "Αποκλείστε διαφημίσεις στις συνομιλίες ChatGPT.",
+    "description": "Popup header subtitle under the extension name."
+  },
+  "popupBlockedLabel": {
+    "message": "Αποκλεισμένες διαφημίσεις σε αυτή τη σελίδα",
+    "description": "Popup label for the per-page blocked ads counter."
+  },
+  "popupSupport": {
+    "message": "Σας αρέσει; Σκεφτείτε να $LINK$. ☕",
+    "description": "Popup support line with $LINK$ donation placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "popupSupportLink": {
+    "message": "μου αγοράσετε έναν καφέ",
+    "description": "Popup support donation link text."
+  },
+  "popupLearnMore": {
+    "message": "Μάθετε περισσότερα",
+    "description": "Popup link to the thank-you / about page."
+  },
+  "tyPageTitle": {
+    "message": "Ευχαριστούμε για την εγκατάσταση - AdBlock for ChatGPT",
+    "description": "Document title for the post-install thank-you page."
+  },
+  "tyLead": {
+    "message": "Ευχαριστούμε για την εγκατάσταση! Ελπίζω να απολαύσετε το ChatGPT χωρίς διαφημίσεις!",
+    "description": "Lead paragraph on the thank-you page."
+  },
+  "tyPrivacy": {
+    "message": "Αυτή η επέκταση είναι εντελώς δωρεάν για προσωπική χρήση και πάντα θα είναι. Σέβεται την ιδιωτικότητά σας και δεν συλλέγει δεδομένα. Ο πηγαίος κώδικας είναι $LINK$.",
+    "description": "Thank-you privacy paragraph with $LINK$ GitHub placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "tyPrivacyLink": {
+    "message": "ανοιχτός στο GitHub",
+    "description": "Thank-you page link text to the GitHub repository."
+  },
+  "tySupport": {
+    "message": "Αν σας αρέσει, σκεφτείτε να $LINK$. ☕",
+    "description": "Thank-you support paragraph with $LINK$ donation placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "tySupportLink": {
+    "message": "μου αγοράσετε έναν καφέ",
+    "description": "Thank-you page donation link text."
+  },
+  "tyFeedback": {
+    "message": "Σφάλματα ή προτάσεις; $LINK$.",
+    "description": "Thank-you feedback paragraph with $LINK$ email placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "tyFeedbackLink": {
+    "message": "στείλτε μου email",
+    "description": "Thank-you page email link text."
+  },
+  "tyLicense": {
+    "message": "Άδεια",
+    "description": "Thank-you page link text to the license."
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "extensionName": {
+    "message": "AdBlock for ChatGPT",
+    "description": "Extension name shown in the Chrome Web Store, browser UI, and page headings."
+  },
+  "extensionDescription": {
+    "message": "Zuia matangazo katika mazungumzo ya ChatGPT. Ficha ujumbe wa usponsa kiotomatiki. Bure na faragha.",
+    "description": "Short description (max 132 characters) for the store listing and manifest."
+  },
+  "popupSubtitle": {
+    "message": "Zuia matangazo katika mazungumzo ya ChatGPT.",
+    "description": "Popup header subtitle under the extension name."
+  },
+  "popupBlockedLabel": {
+    "message": "Matangazo yaliyozuiliwa kwenye ukurasa huu",
+    "description": "Popup label for the per-page blocked ads counter."
+  },
+  "popupSupport": {
+    "message": "Unaipenda? Fikiria $LINK$. ☕",
+    "description": "Popup support line with $LINK$ donation placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "popupSupportLink": {
+    "message": "kununua kahawa",
+    "description": "Popup support donation link text."
+  },
+  "popupLearnMore": {
+    "message": "Jifunze zaidi",
+    "description": "Popup link to the thank-you / about page."
+  },
+  "tyPageTitle": {
+    "message": "Asante kwa kusakinisha - AdBlock for ChatGPT",
+    "description": "Document title for the post-install thank-you page."
+  },
+  "tyLead": {
+    "message": "Asante kwa kusakinisha! Natumai utafurahia ChatGPT bila matangazo!",
+    "description": "Lead paragraph on the thank-you page."
+  },
+  "tyPrivacy": {
+    "message": "Kiendelezi hiki ni bure kabisa kwa matumizi ya kibinafsi na kitabaki hivyo. Kinaheshimu faragha yako na hakikusi data. Msimbo wa chanzo $LINK$.",
+    "description": "Thank-you privacy paragraph with $LINK$ GitHub placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "tyPrivacyLink": {
+    "message": "umefunguliwa kwenye GitHub",
+    "description": "Thank-you page link text to the GitHub repository."
+  },
+  "tySupport": {
+    "message": "Ukikipenda, fikiria $LINK$. ☕",
+    "description": "Thank-you support paragraph with $LINK$ donation placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "tySupportLink": {
+    "message": "kununua kahawa",
+    "description": "Thank-you page donation link text."
+  },
+  "tyFeedback": {
+    "message": "Hitilafu au mapendekezo? $LINK$.",
+    "description": "Thank-you feedback paragraph with $LINK$ email placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "tyFeedbackLink": {
+    "message": "tuma barua pepe",
+    "description": "Thank-you page email link text."
+  },
+  "tyLicense": {
+    "message": "Leseni",
+    "description": "Thank-you page link text to the license."
+  }
+}

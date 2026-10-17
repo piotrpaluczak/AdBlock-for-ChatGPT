@@ -1,0 +1,90 @@
+{
+  "extensionName": {
+    "message": "AdBlock for ChatGPT",
+    "description": "Extension name shown in the Chrome Web Store, browser UI, and page headings."
+  },
+  "extensionDescription": {
+    "message": "Blokir iklan di obrolan ChatGPT. Sembunyikan pesan sponsor secara otomatis. Gratis & privat.",
+    "description": "Short description (max 132 characters) for the store listing and manifest."
+  },
+  "popupSubtitle": {
+    "message": "Blokir iklan di obrolan ChatGPT.",
+    "description": "Popup header subtitle under the extension name."
+  },
+  "popupBlockedLabel": {
+    "message": "Iklan diblokir di halaman ini",
+    "description": "Popup label for the per-page blocked ads counter."
+  },
+  "popupSupport": {
+    "message": "Suka? Pertimbangkan $LINK$. ☕",
+    "description": "Popup support line with $LINK$ donation placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "popupSupportLink": {
+    "message": "traktir kopi",
+    "description": "Popup support donation link text."
+  },
+  "popupLearnMore": {
+    "message": "Pelajari lebih lanjut",
+    "description": "Popup link to the thank-you / about page."
+  },
+  "tyPageTitle": {
+    "message": "Terima kasih telah memasang - AdBlock for ChatGPT",
+    "description": "Document title for the post-install thank-you page."
+  },
+  "tyLead": {
+    "message": "Terima kasih telah memasang! Nikmati ChatGPT tanpa iklan!",
+    "description": "Lead paragraph on the thank-you page."
+  },
+  "tyPrivacy": {
+    "message": "Ekstensi ini sepenuhnya gratis untuk penggunaan pribadi dan akan selalu begitu. Menghormati privasi Anda dan tidak pernah mengumpulkan data. Kode sumber $LINK$.",
+    "description": "Thank-you privacy paragraph with $LINK$ GitHub placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "tyPrivacyLink": {
+    "message": "terbuka di GitHub",
+    "description": "Thank-you page link text to the GitHub repository."
+  },
+  "tySupport": {
+    "message": "Jika Anda suka, pertimbangkan $LINK$. ☕",
+    "description": "Thank-you support paragraph with $LINK$ donation placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "tySupportLink": {
+    "message": "traktir kopi",
+    "description": "Thank-you page donation link text."
+  },
+  "tyFeedback": {
+    "message": "Bug atau saran? $LINK$.",
+    "description": "Thank-you feedback paragraph with $LINK$ email placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "tyFeedbackLink": {
+    "message": "email saya",
+    "description": "Thank-you page email link text."
+  },
+  "tyLicense": {
+    "message": "Lisensi",
+    "description": "Thank-you page link text to the license."
+  }
+}

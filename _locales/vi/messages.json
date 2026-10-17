@@ -1,0 +1,90 @@
+{
+  "extensionName": {
+    "message": "AdBlock for ChatGPT",
+    "description": "Extension name shown in the Chrome Web Store, browser UI, and page headings."
+  },
+  "extensionDescription": {
+    "message": "Chặn quảng cáo trong trò chuyện ChatGPT. Ẩn tin nhắn tài trợ tự động. Miễn phí & riêng tư.",
+    "description": "Short description (max 132 characters) for the store listing and manifest."
+  },
+  "popupSubtitle": {
+    "message": "Chặn quảng cáo trong trò chuyện ChatGPT.",
+    "description": "Popup header subtitle under the extension name."
+  },
+  "popupBlockedLabel": {
+    "message": "Quảng cáo bị chặn trên trang này",
+    "description": "Popup label for the per-page blocked ads counter."
+  },
+  "popupSupport": {
+    "message": "Thích không? Hãy $LINK$. ☕",
+    "description": "Popup support line with $LINK$ donation placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "popupSupportLink": {
+    "message": "mua cà phê cho tôi",
+    "description": "Popup support donation link text."
+  },
+  "popupLearnMore": {
+    "message": "Tìm hiểu thêm",
+    "description": "Popup link to the thank-you / about page."
+  },
+  "tyPageTitle": {
+    "message": "Cảm ơn bạn đã cài đặt - AdBlock for ChatGPT",
+    "description": "Document title for the post-install thank-you page."
+  },
+  "tyLead": {
+    "message": "Cảm ơn bạn đã cài đặt! Hy vọng bạn thích ChatGPT không quảng cáo!",
+    "description": "Lead paragraph on the thank-you page."
+  },
+  "tyPrivacy": {
+    "message": "Tiện ích này hoàn toàn miễn phí cho cá nhân và sẽ luôn như vậy. Tôn trọng quyền riêng tư và không thu thập dữ liệu. Mã nguồn $LINK$.",
+    "description": "Thank-you privacy paragraph with $LINK$ GitHub placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "tyPrivacyLink": {
+    "message": "mở trên GitHub",
+    "description": "Thank-you page link text to the GitHub repository."
+  },
+  "tySupport": {
+    "message": "Nếu bạn thích, hãy $LINK$. ☕",
+    "description": "Thank-you support paragraph with $LINK$ donation placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "tySupportLink": {
+    "message": "mua cà phê cho tôi",
+    "description": "Thank-you page donation link text."
+  },
+  "tyFeedback": {
+    "message": "Lỗi hoặc góp ý? $LINK$.",
+    "description": "Thank-you feedback paragraph with $LINK$ email placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "tyFeedbackLink": {
+    "message": "gửi email cho tôi",
+    "description": "Thank-you page email link text."
+  },
+  "tyLicense": {
+    "message": "Giấy phép",
+    "description": "Thank-you page link text to the license."
+  }
+}

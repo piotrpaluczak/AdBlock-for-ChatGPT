@@ -1,0 +1,90 @@
+{
+  "extensionName": {
+    "message": "AdBlock for ChatGPT",
+    "description": "Extension name shown in the Chrome Web Store, browser UI, and page headings."
+  },
+  "extensionDescription": {
+    "message": "በ ChatGPT ውይይቶች ውስጥ ማስታወቂያዎችን ይከልኩ። የስፖንሰር መልእክቶችን በራስ-ሰር ይደብቁ። ነፃ እና ግል።",
+    "description": "Short description (max 132 characters) for the store listing and manifest."
+  },
+  "popupSubtitle": {
+    "message": "በ ChatGPT ውይይቶች ውስጥ ማስታወቂያዎችን ይከልኩ።",
+    "description": "Popup header subtitle under the extension name."
+  },
+  "popupBlockedLabel": {
+    "message": "በዚህ ገጽ የተከለከሉ ማስታወቂያዎች",
+    "description": "Popup label for the per-page blocked ads counter."
+  },
+  "popupSupport": {
+    "message": "ይወዳሉ? $LINK$. ☕",
+    "description": "Popup support line with $LINK$ donation placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "popupSupportLink": {
+    "message": "ቡና ይግዙልኝ",
+    "description": "Popup support donation link text."
+  },
+  "popupLearnMore": {
+    "message": "ተጨማሪ ይወቁ",
+    "description": "Popup link to the thank-you / about page."
+  },
+  "tyPageTitle": {
+    "message": "ለመጫን እናመሰግናለን - AdBlock for ChatGPT",
+    "description": "Document title for the post-install thank-you page."
+  },
+  "tyLead": {
+    "message": "ለመጫን እናመሰግናለን! ChatGPTን ማስታወቂያ ሳይኖር እንዲደሰቱ እመኛለሁ!",
+    "description": "Lead paragraph on the thank-you page."
+  },
+  "tyPrivacy": {
+    "message": "ይህ extension ለግል አጠቃቀም ሙሉ በሙሉ ነፃ ነው እና ሁልጊዜ ይሆናል። ግላዊነትዎን ይከብራል እና መረጃዎን አይሰበስብም። ምንጩ $LINK$.",
+    "description": "Thank-you privacy paragraph with $LINK$ GitHub placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "tyPrivacyLink": {
+    "message": "በ GitHub ላይ ክፍት ነው",
+    "description": "Thank-you page link text to the GitHub repository."
+  },
+  "tySupport": {
+    "message": "ከመጠቀምዎ ደስ ብሎ ከሆነ፣ $LINK$. ☕",
+    "description": "Thank-you support paragraph with $LINK$ donation placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "tySupportLink": {
+    "message": "ቡና ይግዙልኝ",
+    "description": "Thank-you page donation link text."
+  },
+  "tyFeedback": {
+    "message": "በግድ ወይም ሐሳብ? $LINK$.",
+    "description": "Thank-you feedback paragraph with $LINK$ email placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "tyFeedbackLink": {
+    "message": "ኢሜይል ይላኩልኝ",
+    "description": "Thank-you page email link text."
+  },
+  "tyLicense": {
+    "message": "ፈቃድ",
+    "description": "Thank-you page link text to the license."
+  }
+}

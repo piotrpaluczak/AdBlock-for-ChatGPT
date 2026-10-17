@@ -1,0 +1,90 @@
+{
+  "extensionName": {
+    "message": "AdBlock for ChatGPT",
+    "description": "Extension name shown in the Chrome Web Store, browser UI, and page headings."
+  },
+  "extensionDescription": {
+    "message": "Blokkeer advertenties in ChatGPT-chats. Verberg gesponsorde berichten automatisch. Gratis en privé.",
+    "description": "Short description (max 132 characters) for the store listing and manifest."
+  },
+  "popupSubtitle": {
+    "message": "Blokkeer advertenties in ChatGPT-chats.",
+    "description": "Popup header subtitle under the extension name."
+  },
+  "popupBlockedLabel": {
+    "message": "Advertenties geblokkeerd op deze pagina",
+    "description": "Popup label for the per-page blocked ads counter."
+  },
+  "popupSupport": {
+    "message": "Bevalt het? Overweeg $LINK$. ☕",
+    "description": "Popup support line with $LINK$ donation placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "popupSupportLink": {
+    "message": "een koffie voor me te kopen",
+    "description": "Popup support donation link text."
+  },
+  "popupLearnMore": {
+    "message": "Meer info",
+    "description": "Popup link to the thank-you / about page."
+  },
+  "tyPageTitle": {
+    "message": "Bedankt voor installeren - AdBlock for ChatGPT",
+    "description": "Document title for the post-install thank-you page."
+  },
+  "tyLead": {
+    "message": "Bedankt voor installeren! Veel plezier met ChatGPT zonder advertenties!",
+    "description": "Lead paragraph on the thank-you page."
+  },
+  "tyPrivacy": {
+    "message": "Deze extensie is volledig gratis voor persoonlijk gebruik en blijft dat. Ze respecteert je privacy en verzamelt nooit gegevens. De broncode is $LINK$.",
+    "description": "Thank-you privacy paragraph with $LINK$ GitHub placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "tyPrivacyLink": {
+    "message": "open op GitHub",
+    "description": "Thank-you page link text to the GitHub repository."
+  },
+  "tySupport": {
+    "message": "Als je het fijn vindt, overweeg $LINK$. ☕",
+    "description": "Thank-you support paragraph with $LINK$ donation placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "tySupportLink": {
+    "message": "een koffie voor me te kopen",
+    "description": "Thank-you page donation link text."
+  },
+  "tyFeedback": {
+    "message": "Bugs of suggesties? $LINK$.",
+    "description": "Thank-you feedback paragraph with $LINK$ email placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "tyFeedbackLink": {
+    "message": "mail me",
+    "description": "Thank-you page email link text."
+  },
+  "tyLicense": {
+    "message": "Licentie",
+    "description": "Thank-you page link text to the license."
+  }
+}

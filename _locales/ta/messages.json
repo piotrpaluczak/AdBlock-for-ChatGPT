@@ -1,0 +1,90 @@
+{
+  "extensionName": {
+    "message": "AdBlock for ChatGPT",
+    "description": "Extension name shown in the Chrome Web Store, browser UI, and page headings."
+  },
+  "extensionDescription": {
+    "message": "ChatGPT அரட்டைகளில் விளம்பரங்களை தடுக்கவும். ஸ்பான்சர் செய்திகளை தானாக மறைக்கவும். இலவசம் & தனியுரிமை.",
+    "description": "Short description (max 132 characters) for the store listing and manifest."
+  },
+  "popupSubtitle": {
+    "message": "ChatGPT அரட்டைகளில் விளம்பரங்களை தடுக்கவும்.",
+    "description": "Popup header subtitle under the extension name."
+  },
+  "popupBlockedLabel": {
+    "message": "இந்த பக்கத்தில் தடுக்கப்பட்ட விளம்பரங்கள்",
+    "description": "Popup label for the per-page blocked ads counter."
+  },
+  "popupSupport": {
+    "message": "பிடித்திருக்கிறதா? $LINK$. ☕",
+    "description": "Popup support line with $LINK$ donation placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "popupSupportLink": {
+    "message": "எனக்கு ஒரு காபி வாங்குங்கள்",
+    "description": "Popup support donation link text."
+  },
+  "popupLearnMore": {
+    "message": "மேலும் அறிய",
+    "description": "Popup link to the thank-you / about page."
+  },
+  "tyPageTitle": {
+    "message": "நிறுவியதற்கு நன்றி - AdBlock for ChatGPT",
+    "description": "Document title for the post-install thank-you page."
+  },
+  "tyLead": {
+    "message": "நிறுவியதற்கு நன்றி! விளம்பரமில்லா ChatGPT-ஐ அனுபவிக்கவும்!",
+    "description": "Lead paragraph on the thank-you page."
+  },
+  "tyPrivacy": {
+    "message": "இந்த நீட்டிப்பு தனிப்பட்ட பயன்பாட்டிற்கு முற்றிலும் இலவசம், எப்போதும் இருக்கும். உங்கள் தனியுரிமையை மதிக்கிறது, தரவை சேகரிக்காது. மூலக் குறியீடு $LINK$.",
+    "description": "Thank-you privacy paragraph with $LINK$ GitHub placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "tyPrivacyLink": {
+    "message": "GitHub-ல் திறந்துள்ளது",
+    "description": "Thank-you page link text to the GitHub repository."
+  },
+  "tySupport": {
+    "message": "பிடித்திருந்தால், $LINK$. ☕",
+    "description": "Thank-you support paragraph with $LINK$ donation placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "tySupportLink": {
+    "message": "எனக்கு ஒரு காபி வாங்குங்கள்",
+    "description": "Thank-you page donation link text."
+  },
+  "tyFeedback": {
+    "message": "பிழைகள் அல்லது பரிந்துரைகள்? $LINK$.",
+    "description": "Thank-you feedback paragraph with $LINK$ email placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "tyFeedbackLink": {
+    "message": "எனக்கு மின்னஞ்சல் அனுப்புங்கள்",
+    "description": "Thank-you page email link text."
+  },
+  "tyLicense": {
+    "message": "உரிமம்",
+    "description": "Thank-you page link text to the license."
+  }
+}

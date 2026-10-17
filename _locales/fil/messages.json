@@ -1,0 +1,90 @@
+{
+  "extensionName": {
+    "message": "AdBlock for ChatGPT",
+    "description": "Extension name shown in the Chrome Web Store, browser UI, and page headings."
+  },
+  "extensionDescription": {
+    "message": "I-block ang mga ad sa ChatGPT chat. Itago ang sponsored na mensahe nang awtomatiko. Libre at pribado.",
+    "description": "Short description (max 132 characters) for the store listing and manifest."
+  },
+  "popupSubtitle": {
+    "message": "I-block ang mga ad sa ChatGPT chat.",
+    "description": "Popup header subtitle under the extension name."
+  },
+  "popupBlockedLabel": {
+    "message": "Mga ad na na-block sa pahinang ito",
+    "description": "Popup label for the per-page blocked ads counter."
+  },
+  "popupSupport": {
+    "message": "Nagustuhan mo? Isaalang-alang ang $LINK$. ☕",
+    "description": "Popup support line with $LINK$ donation placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "popupSupportLink": {
+    "message": "pagbili sa akin ng kape",
+    "description": "Popup support donation link text."
+  },
+  "popupLearnMore": {
+    "message": "Alamin pa",
+    "description": "Popup link to the thank-you / about page."
+  },
+  "tyPageTitle": {
+    "message": "Salamat sa pag-install - AdBlock for ChatGPT",
+    "description": "Document title for the post-install thank-you page."
+  },
+  "tyLead": {
+    "message": "Salamat sa pag-install! Sana mag-enjoy ka sa ChatGPT na walang ad!",
+    "description": "Lead paragraph on the thank-you page."
+  },
+  "tyPrivacy": {
+    "message": "Ang extension na ito ay libreng-libre para sa personal na paggamit at palaging ganoon. Iginagalang nito ang iyong privacy at hindi kailanman kinokolekta ang data mo. Ang source code ay $LINK$.",
+    "description": "Thank-you privacy paragraph with $LINK$ GitHub placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "tyPrivacyLink": {
+    "message": "bukas sa GitHub",
+    "description": "Thank-you page link text to the GitHub repository."
+  },
+  "tySupport": {
+    "message": "Kung nagustuhan mo, isaalang-alang ang $LINK$. ☕",
+    "description": "Thank-you support paragraph with $LINK$ donation placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "tySupportLink": {
+    "message": "pagbili sa akin ng kape",
+    "description": "Thank-you page donation link text."
+  },
+  "tyFeedback": {
+    "message": "Mga bug o mungkahi? $LINK$.",
+    "description": "Thank-you feedback paragraph with $LINK$ email placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "tyFeedbackLink": {
+    "message": "mag-email sa akin",
+    "description": "Thank-you page email link text."
+  },
+  "tyLicense": {
+    "message": "Lisensya",
+    "description": "Thank-you page link text to the license."
+  }
+}

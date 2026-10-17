@@ -1,0 +1,90 @@
+{
+  "extensionName": {
+    "message": "AdBlock for ChatGPT",
+    "description": "Extension name shown in the Chrome Web Store, browser UI, and page headings."
+  },
+  "extensionDescription": {
+    "message": "ChatGPT ಚಾಟ್‌ಗಳಲ್ಲಿ ಜಾಹೀರಾತುಗಳನ್ನು ನಿರ್ಬಂಧಿಸಿ. ಪ್ರಾಯೋಜಿತ ಸಂದೇಶಗಳನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಮರೆಮಾಡಿ. ಉಚಿತ ಮತ್ತು ಖಾಸಗಿ.",
+    "description": "Short description (max 132 characters) for the store listing and manifest."
+  },
+  "popupSubtitle": {
+    "message": "ChatGPT ಚಾಟ್‌ಗಳಲ್ಲಿ ಜಾಹೀರಾತುಗಳನ್ನು ನಿರ್ಬಂಧಿಸಿ.",
+    "description": "Popup header subtitle under the extension name."
+  },
+  "popupBlockedLabel": {
+    "message": "ಈ ಪುಟದಲ್ಲಿ ನಿರ್ಬಂಧಿಸಿದ ಜಾಹೀರಾತುಗಳು",
+    "description": "Popup label for the per-page blocked ads counter."
+  },
+  "popupSupport": {
+    "message": "ಇಷ್ಟವಾಯ್ತಾ? $LINK$. ☕",
+    "description": "Popup support line with $LINK$ donation placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "popupSupportLink": {
+    "message": "ನನಗೆ ಕಾಫಿ ಖರೀದಿಸಿ",
+    "description": "Popup support donation link text."
+  },
+  "popupLearnMore": {
+    "message": "ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ",
+    "description": "Popup link to the thank-you / about page."
+  },
+  "tyPageTitle": {
+    "message": "ಸ್ಥಾಪಿಸಿದ್ದಕ್ಕಾಗಿ ಧನ್ಯವಾದ - AdBlock for ChatGPT",
+    "description": "Document title for the post-install thank-you page."
+  },
+  "tyLead": {
+    "message": "ಸ್ಥಾಪಿಸಿದ್ದಕ್ಕಾಗಿ ಧನ್ಯವಾದ! ಜಾಹೀರಾತು-ಮುಕ್ತ ChatGPT ಅನುಭವಿಸಿ!",
+    "description": "Lead paragraph on the thank-you page."
+  },
+  "tyPrivacy": {
+    "message": "ಈ ವಿಸ್ತರಣೆ ವೈಯಕ್ತಿಕ ಬಳಕೆಗೆ ಸಂಪೂರ್ಣ ಉಚಿತ ಮತ್ತು ಯಾವಾಗಲೂ ಹಾಗೆಯೇ ಇರುತ್ತದೆ. ನಿಮ್ಮ ಗೋಪ್ಯತೆಯನ್ನು ಗೌರವಿಸುತ್ತದೆ ಮತ್ತು ಡೇಟಾ ಸಂಗ್ರಹಿಸುವುದಿಲ್ಲ. ಮೂಲ ಕೋಡ್ $LINK$.",
+    "description": "Thank-you privacy paragraph with $LINK$ GitHub placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "tyPrivacyLink": {
+    "message": "GitHub ನಲ್ಲಿ ತೆರೆದಿದೆ",
+    "description": "Thank-you page link text to the GitHub repository."
+  },
+  "tySupport": {
+    "message": "ನಿಮಗೆ ಇಷ್ಟವಾದರೆ, $LINK$. ☕",
+    "description": "Thank-you support paragraph with $LINK$ donation placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "tySupportLink": {
+    "message": "ನನಗೆ ಕಾಫಿ ಖರೀದಿಸಿ",
+    "description": "Thank-you page donation link text."
+  },
+  "tyFeedback": {
+    "message": "ದೋಷಗಳು ಅಥವಾ ಸಲಹೆಗಳು? $LINK$.",
+    "description": "Thank-you feedback paragraph with $LINK$ email placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "tyFeedbackLink": {
+    "message": "ಇಮೇಲ್ ಮಾಡಿ",
+    "description": "Thank-you page email link text."
+  },
+  "tyLicense": {
+    "message": "ಪರವಾನಗಿ",
+    "description": "Thank-you page link text to the license."
+  }
+}

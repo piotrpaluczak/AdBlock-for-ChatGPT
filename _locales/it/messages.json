@@ -1,0 +1,90 @@
+{
+  "extensionName": {
+    "message": "AdBlock for ChatGPT",
+    "description": "Extension name shown in the Chrome Web Store, browser UI, and page headings."
+  },
+  "extensionDescription": {
+    "message": "Blocca gli annunci nelle chat di ChatGPT. Nascondi i messaggi sponsorizzati automaticamente. Gratis e privato.",
+    "description": "Short description (max 132 characters) for the store listing and manifest."
+  },
+  "popupSubtitle": {
+    "message": "Blocca gli annunci nelle chat di ChatGPT.",
+    "description": "Popup header subtitle under the extension name."
+  },
+  "popupBlockedLabel": {
+    "message": "Annunci bloccati in questa pagina",
+    "description": "Popup label for the per-page blocked ads counter."
+  },
+  "popupSupport": {
+    "message": "Ti piace? Considera $LINK$. ☕",
+    "description": "Popup support line with $LINK$ donation placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "popupSupportLink": {
+    "message": "offrirmi un caffè",
+    "description": "Popup support donation link text."
+  },
+  "popupLearnMore": {
+    "message": "Scopri di più",
+    "description": "Popup link to the thank-you / about page."
+  },
+  "tyPageTitle": {
+    "message": "Grazie per l'installazione - AdBlock for ChatGPT",
+    "description": "Document title for the post-install thank-you page."
+  },
+  "tyLead": {
+    "message": "Grazie per l'installazione! Spero ti piaccia ChatGPT senza annunci!",
+    "description": "Lead paragraph on the thank-you page."
+  },
+  "tyPrivacy": {
+    "message": "Questa estensione è completamente gratuita per uso personale e lo resterà. Rispetta la tua privacy e non raccoglie mai i tuoi dati. Il codice sorgente è $LINK$.",
+    "description": "Thank-you privacy paragraph with $LINK$ GitHub placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "tyPrivacyLink": {
+    "message": "aperto su GitHub",
+    "description": "Thank-you page link text to the GitHub repository."
+  },
+  "tySupport": {
+    "message": "Se ti piace usarla, considera $LINK$. ☕",
+    "description": "Thank-you support paragraph with $LINK$ donation placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "tySupportLink": {
+    "message": "offrirmi un caffè",
+    "description": "Thank-you page donation link text."
+  },
+  "tyFeedback": {
+    "message": "Bug o suggerimenti? $LINK$.",
+    "description": "Thank-you feedback paragraph with $LINK$ email placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "tyFeedbackLink": {
+    "message": "scrivimi",
+    "description": "Thank-you page email link text."
+  },
+  "tyLicense": {
+    "message": "Licenza",
+    "description": "Thank-you page link text to the license."
+  }
+}

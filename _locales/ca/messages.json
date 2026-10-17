@@ -1,0 +1,90 @@
+{
+  "extensionName": {
+    "message": "AdBlock for ChatGPT",
+    "description": "Extension name shown in the Chrome Web Store, browser UI, and page headings."
+  },
+  "extensionDescription": {
+    "message": "Bloqueja anuncis als xats de ChatGPT. Amaga missatges patrocinats automàticament. Gratuït i privat.",
+    "description": "Short description (max 132 characters) for the store listing and manifest."
+  },
+  "popupSubtitle": {
+    "message": "Bloqueja anuncis als xats de ChatGPT.",
+    "description": "Popup header subtitle under the extension name."
+  },
+  "popupBlockedLabel": {
+    "message": "Anuncis bloquejats en aquesta pàgina",
+    "description": "Popup label for the per-page blocked ads counter."
+  },
+  "popupSupport": {
+    "message": "T'agrada? Considera $LINK$. ☕",
+    "description": "Popup support line with $LINK$ donation placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "popupSupportLink": {
+    "message": "convidar-me un cafè",
+    "description": "Popup support donation link text."
+  },
+  "popupLearnMore": {
+    "message": "Més informació",
+    "description": "Popup link to the thank-you / about page."
+  },
+  "tyPageTitle": {
+    "message": "Gràcies per instal·lar - AdBlock for ChatGPT",
+    "description": "Document title for the post-install thank-you page."
+  },
+  "tyLead": {
+    "message": "Gràcies per instal·lar! Espero que gaudeixis d'un ChatGPT sense anuncis!",
+    "description": "Lead paragraph on the thank-you page."
+  },
+  "tyPrivacy": {
+    "message": "Aquesta extensió és completament gratuïta per a ús personal i sempre ho serà. Respecta la teva privadesa i no recull dades. El codi font està $LINK$.",
+    "description": "Thank-you privacy paragraph with $LINK$ GitHub placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "tyPrivacyLink": {
+    "message": "obert a GitHub",
+    "description": "Thank-you page link text to the GitHub repository."
+  },
+  "tySupport": {
+    "message": "Si t'agrada utilitzar-la, considera $LINK$. ☕",
+    "description": "Thank-you support paragraph with $LINK$ donation placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "tySupportLink": {
+    "message": "convidar-me un cafè",
+    "description": "Thank-you page donation link text."
+  },
+  "tyFeedback": {
+    "message": "Errors o suggeriments? $LINK$.",
+    "description": "Thank-you feedback paragraph with $LINK$ email placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "tyFeedbackLink": {
+    "message": "envia'm un correu",
+    "description": "Thank-you page email link text."
+  },
+  "tyLicense": {
+    "message": "Llicència",
+    "description": "Thank-you page link text to the license."
+  }
+}

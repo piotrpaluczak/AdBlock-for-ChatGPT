@@ -1,0 +1,90 @@
+{
+  "extensionName": {
+    "message": "AdBlock for ChatGPT",
+    "description": "Extension name shown in the Chrome Web Store, browser UI, and page headings."
+  },
+  "extensionDescription": {
+    "message": "ChatGPT ચેટમાં જાહેરાતો અવરોધો. સ્પોન્સર્ડ સંદેશાઓ આપમેળે છુપાવો. મફત અને ખાનગી.",
+    "description": "Short description (max 132 characters) for the store listing and manifest."
+  },
+  "popupSubtitle": {
+    "message": "ChatGPT ચેટમાં જાહેરાતો અવરોધો.",
+    "description": "Popup header subtitle under the extension name."
+  },
+  "popupBlockedLabel": {
+    "message": "આ પૃષ્ઠ પર અવરોધિત જાહેરાતો",
+    "description": "Popup label for the per-page blocked ads counter."
+  },
+  "popupSupport": {
+    "message": "ગમ્યું? $LINK$. ☕",
+    "description": "Popup support line with $LINK$ donation placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "popupSupportLink": {
+    "message": "મારા માટે કોફી ખરીદો",
+    "description": "Popup support donation link text."
+  },
+  "popupLearnMore": {
+    "message": "વધુ જાણો",
+    "description": "Popup link to the thank-you / about page."
+  },
+  "tyPageTitle": {
+    "message": "ઇન્સ્ટોલ કરવા બદલ આભાર - AdBlock for ChatGPT",
+    "description": "Document title for the post-install thank-you page."
+  },
+  "tyLead": {
+    "message": "ઇન્સ્ટોલ કરવા બદલ આભાર! જાહેરાત-મુક્ત ChatGPTનો આનંદ માણો!",
+    "description": "Lead paragraph on the thank-you page."
+  },
+  "tyPrivacy": {
+    "message": "આ એક્સ્ટેન્શન વ્યક્તિગત ઉપયોગ માટે સંપૂર્ણ મફત છે અને હંમેશા રહેશે. તે તમારી ગોપનીયતાનું સન્માન કરે છે અને ડેટા એકત્ર કરતું નથી. સોર્સ કોડ $LINK$.",
+    "description": "Thank-you privacy paragraph with $LINK$ GitHub placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "tyPrivacyLink": {
+    "message": "GitHub પર ખુલ્લો છે",
+    "description": "Thank-you page link text to the GitHub repository."
+  },
+  "tySupport": {
+    "message": "જો તમને ગમે, તો $LINK$. ☕",
+    "description": "Thank-you support paragraph with $LINK$ donation placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "tySupportLink": {
+    "message": "મારા માટે કોફી ખરીદો",
+    "description": "Thank-you page donation link text."
+  },
+  "tyFeedback": {
+    "message": "બગ અથવા સૂચનો? $LINK$.",
+    "description": "Thank-you feedback paragraph with $LINK$ email placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "link text"
+      }
+    }
+  },
+  "tyFeedbackLink": {
+    "message": "મને ઈમેઇલ કરો",
+    "description": "Thank-you page email link text."
+  },
+  "tyLicense": {
+    "message": "લાઇસન્સ",
+    "description": "Thank-you page link text to the license."
+  }
+}

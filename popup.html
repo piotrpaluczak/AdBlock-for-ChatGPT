@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="color-scheme" content="light dark" />
-    <title>AdBlock for ChatGPT</title>
+    <title data-i18n="extensionName">AdBlock for ChatGPT</title>
     <style>
       :root {
         color-scheme: light dark;
@@ -175,7 +175,7 @@
   <body>
     <header>
       <img src="icons/icon48.png" alt="" width="32" height="32" />
-      <h1 id="extension-title">AdBlock for ChatGPT</h1>
+      <h1 id="extension-title" data-i18n="extensionName">AdBlock for ChatGPT</h1>
       <div class="toggle">
         <span class="state" id="enabled-state" aria-hidden="true">Off</span>
         <label class="switch">
@@ -189,19 +189,20 @@
           <span class="track" aria-hidden="true"></span>
         </label>
       </div>
-      <p class="subtitle">Block ads in ChatGPT chats.</p>
+      <p class="subtitle" data-i18n="popupSubtitle">Block ads in ChatGPT chats.</p>
     </header>
     <div class="stat" aria-live="polite">
-      <span id="blocked-label">Ads blocked on this page</span>
+      <span id="blocked-label" data-i18n="popupBlockedLabel">Ads blocked on this page</span>
       <span class="stat-value" id="blocked-count" data-empty="true">—</span>
     </div>
     <div class="support">
-      <p>
+      <p data-i18n="popupSupport">
         Enjoying it? Consider
         <a
           href="https://buymeacoffee.com/piotrpaluczak"
           target="_blank"
           rel="noopener noreferrer"
+          data-i18n-link="popupSupportLink"
           >buying me a coffee</a
         >. ☕
       </p>
@@ -210,9 +211,11 @@
         href="thank-you.html"
         target="_blank"
         rel="noopener noreferrer"
+        data-i18n="popupLearnMore"
         >Learn more</a
       >
     </div>
+    <script src="i18n.js"></script>
     <script src="popup.js"></script>
   </body>
 </html>
