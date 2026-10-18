@@ -4,11 +4,11 @@
     "description": "Extension name shown in the Chrome Web Store, browser UI, and page headings."
   },
   "extensionDescription": {
-    "message": "Blokuj reklamy w rozmowach ChatGPT. Ukrywaj sponsorowane wiadomości automatycznie. Darmowe i prywatne.",
+    "message": "Automatycznie blokuje i ukrywa reklamy w ChatGPT. Za darmo, bez śledzenia.",
     "description": "Short description (max 132 characters) for the store listing and manifest."
   },
   "popupSubtitle": {
-    "message": "Blokuj reklamy w rozmowach ChatGPT.",
+    "message": "Blokuje i ukrywa reklamy w ChatGPT.",
     "description": "Popup header subtitle under the extension name."
   },
   "popupBlockedLabel": {
