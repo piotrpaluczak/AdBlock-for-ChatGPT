@@ -47,7 +47,7 @@ function isAdUnitRoot(el) {
 
   // Creative on OpenAI ads CDN and/or thumbs feedback row
   const hasCreative = !!el.querySelector(
-    'img[src*="images.openai.com/static-rsc"]'
+    'img[src*="images.openai.com/static-rsc"], img[src*="files.openai.com/content"]'
   );
   const fieldset = el.querySelector("fieldset");
   const hasFeedback =
