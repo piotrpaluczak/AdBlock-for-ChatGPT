@@ -15,6 +15,20 @@
     "message": "이 페이지에서 차단된 광고",
     "description": "Popup label for the per-page blocked ads counter."
   },
+  "popupPromo": {
+    "message": "새 확장 프로그램을 확인해 보세요! $LINK$",
+    "description": "Popup promo line for Avatar for ChatGPT with $LINK$ store placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "Avatar for ChatGPT"
+      }
+    }
+  },
+  "popupPromoLink": {
+    "message": "Avatar for ChatGPT",
+    "description": "Popup promo link text to the Avatar for ChatGPT Chrome Web Store listing."
+  },
   "popupSupport": {
     "message": "마음에 드시나요? $LINK$. ☕",
     "description": "Popup support line with $LINK$ donation placeholder.",

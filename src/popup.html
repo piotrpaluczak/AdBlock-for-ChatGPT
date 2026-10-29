@@ -120,15 +120,34 @@
         outline-offset: 2px;
       }
 
+      .stat-block {
+        padding-bottom: 12px;
+      }
+
       .stat {
         display: flex;
         align-items: baseline;
         justify-content: space-between;
         gap: 16px;
-        padding: 0 0 44px;
         font-size: 12px;
         line-height: 1.35;
         color: var(--muted);
+      }
+
+      .promo {
+        margin: 10px 0 0;
+        font-size: 12px;
+        line-height: 1.35;
+        color: var(--muted);
+      }
+
+      .promo a {
+        color: inherit;
+        text-underline-offset: 2px;
+      }
+
+      .promo a:hover {
+        color: var(--text);
       }
 
       .stat-value {
@@ -191,9 +210,21 @@
       </div>
       <p class="subtitle" data-i18n="popupSubtitle">Block ads in ChatGPT chats.</p>
     </header>
-    <div class="stat" aria-live="polite">
-      <span id="blocked-label" data-i18n="popupBlockedLabel">Ads blocked on this page</span>
-      <span class="stat-value" id="blocked-count" data-empty="true">—</span>
+    <div class="stat-block">
+      <div class="stat" aria-live="polite">
+        <span id="blocked-label" data-i18n="popupBlockedLabel">Ads blocked on this page</span>
+        <span class="stat-value" id="blocked-count" data-empty="true">—</span>
+      </div>
+      <p class="promo" data-i18n="popupPromo">
+        Check out my new extension!
+        <a
+          href="https://chromewebstore.google.com/detail/avatar-for-chatgpt-voice/dkpogfofemgpeajleecejanlidjihldk"
+          target="_blank"
+          rel="noopener noreferrer"
+          data-i18n-link="popupPromoLink"
+          >Avatar for ChatGPT</a
+        >
+      </p>
     </div>
     <div class="support">
       <p data-i18n="popupSupport">

@@ -15,6 +15,20 @@
     "message": "या पृष्ठावर अवरोधित जाहिराती",
     "description": "Popup label for the per-page blocked ads counter."
   },
+  "popupPromo": {
+    "message": "माझे नवीन एक्सटेंशन पहा! $LINK$",
+    "description": "Popup promo line for Avatar for ChatGPT with $LINK$ store placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "Avatar for ChatGPT"
+      }
+    }
+  },
+  "popupPromoLink": {
+    "message": "Avatar for ChatGPT",
+    "description": "Popup promo link text to the Avatar for ChatGPT Chrome Web Store listing."
+  },
   "popupSupport": {
     "message": "आवडले? $LINK$. ☕",
     "description": "Popup support line with $LINK$ donation placeholder.",

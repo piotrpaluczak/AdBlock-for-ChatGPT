@@ -15,6 +15,20 @@
     "message": "ಈ ಪುಟದಲ್ಲಿ ನಿರ್ಬಂಧಿಸಿದ ಜಾಹೀರಾತುಗಳು",
     "description": "Popup label for the per-page blocked ads counter."
   },
+  "popupPromo": {
+    "message": "ನನ್ನ ಹೊಸ ವಿಸ್ತರಣೆಯನ್ನು ನೋಡಿ! $LINK$",
+    "description": "Popup promo line for Avatar for ChatGPT with $LINK$ store placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "Avatar for ChatGPT"
+      }
+    }
+  },
+  "popupPromoLink": {
+    "message": "Avatar for ChatGPT",
+    "description": "Popup promo link text to the Avatar for ChatGPT Chrome Web Store listing."
+  },
   "popupSupport": {
     "message": "ಇಷ್ಟವಾಯ್ತಾ? $LINK$. ☕",
     "description": "Popup support line with $LINK$ donation placeholder.",

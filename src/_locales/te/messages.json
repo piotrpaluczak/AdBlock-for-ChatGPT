@@ -15,6 +15,20 @@
     "message": "ఈ పేజీలో నిరోధించిన ప్రకటనలు",
     "description": "Popup label for the per-page blocked ads counter."
   },
+  "popupPromo": {
+    "message": "నా కొత్త ఎక్స్‌టెన్షన్‌ను చూడండి! $LINK$",
+    "description": "Popup promo line for Avatar for ChatGPT with $LINK$ store placeholder.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "Avatar for ChatGPT"
+      }
+    }
+  },
+  "popupPromoLink": {
+    "message": "Avatar for ChatGPT",
+    "description": "Popup promo link text to the Avatar for ChatGPT Chrome Web Store listing."
+  },
   "popupSupport": {
     "message": "నచ్చిందా? $LINK$. ☕",
     "description": "Popup support line with $LINK$ donation placeholder.",
